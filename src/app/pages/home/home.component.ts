@@ -7,18 +7,18 @@ import { Title, Meta } from '@angular/platform-browser'
   styleUrls: ['home.component.css'],
 })
 export class Home {
-  raw53n1: string = ' '
-  raw60ai: string = ' '
-  rawvhk6: string = ' '
-  rawyell: string = ' '
-  raw02k7: string = ' '
-  rawyjnj: string = ' '
-  rawkjai: string = ' '
-  rawqh4l: string = ' '
-  rawzfsg: string = ' '
-  rawian9: string = ' '
-  raw8oiq: string = ' '
-  rawm0rh: string = ' '
+  raw6vbf: string = ' '
+  rawcgd4: string = ' '
+  rawwb9h: string = ' '
+  raw9jrz: string = ' '
+  raw8j8p: string = ' '
+  rawupcx: string = ' '
+  raw35fi: string = ' '
+  rawegfi: string = ' '
+  raw4qs4: string = ' '
+  rawcd5w: string = ' '
+  rawcnse: string = ' '
+  rawp6h0: string = ' '
   constructor(private title: Title, private meta: Meta) {
     this.title.setTitle('Elecnovate')
     this.meta.addTags([
