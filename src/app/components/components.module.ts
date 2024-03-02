@@ -26,6 +26,11 @@ import { TestimonialCard21 } from './testimonial-card21/testimonial-card21.compo
 import { TestimonialCard12 } from './testimonial-card12/testimonial-card12.component'
 import { GalleryCard13 } from './gallery-card13/gallery-card13.component'
 import { GalleryCard14 } from './gallery-card14/gallery-card14.component'
+import { FeatureCard14 } from './feature-card14/feature-card14.component'
+import { GalleryCard2 } from './gallery-card2/gallery-card2.component'
+import { FeatureCard15 } from './feature-card15/feature-card15.component'
+import { GalleryCard3 } from './gallery-card3/gallery-card3.component'
+import { GalleryCard31 } from './gallery-card31/gallery-card31.component'
 
 @NgModule({
   declarations: [
@@ -53,6 +58,11 @@ import { GalleryCard14 } from './gallery-card14/gallery-card14.component'
     TestimonialCard12,
     GalleryCard13,
     GalleryCard14,
+    FeatureCard14,
+    GalleryCard2,
+    FeatureCard15,
+    GalleryCard3,
+    GalleryCard31,
   ],
   imports: [CommonModule, RouterModule],
   exports: [
@@ -80,6 +90,11 @@ import { GalleryCard14 } from './gallery-card14/gallery-card14.component'
     TestimonialCard12,
     GalleryCard13,
     GalleryCard14,
+    FeatureCard14,
+    GalleryCard2,
+    FeatureCard15,
+    GalleryCard3,
+    GalleryCard31,
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })

@@ -7,10 +7,10 @@ import { Title, Meta } from '@angular/platform-browser'
   styleUrls: ['social-media-design.component.css'],
 })
 export class SocialMediaDesign {
-  rawzbeq: string = ' '
-  raw4kod: string = ' '
-  raw3hj8: string = ' '
-  raw6b5m: string = ' '
+  raw0pfb: string = ' '
+  rawzscy: string = ' '
+  rawsy52: string = ' '
+  rawdpk0: string = ' '
   constructor(private title: Title, private meta: Meta) {
     this.title.setTitle('Social-Media-Design - Elecnovate')
     this.meta.addTags([

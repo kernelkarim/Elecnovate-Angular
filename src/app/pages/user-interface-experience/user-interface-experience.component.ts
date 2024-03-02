@@ -7,10 +7,22 @@ import { Title, Meta } from '@angular/platform-browser'
   styleUrls: ['user-interface-experience.component.css'],
 })
 export class UserInterfaceExperience {
-  raw8riz: string = ' '
-  rawnugy: string = ' '
-  raw0x22: string = ' '
-  rawtbao: string = ' '
+  raw5m6p: string = ' '
+  raw08nx: string = ' '
+  raw88gw: string = ' '
+  raw6o6h: string = ' '
+  rawx0ul: string = ' '
+  rawwkyt: string = ' '
+  rawi70x: string = ' '
+  raw0oje: string = ' '
+  rawjxzb: string = ' '
+  rawmv2p: string = ' '
+  raw0326: string = ' '
+  rawktgy: string = ' '
+  rawnw82: string = ' '
+  rawnkvg: string = ' '
+  raw5dur: string = ' '
+  rawjlx8: string = ' '
   constructor(private title: Title, private meta: Meta) {
     this.title.setTitle('User-Interface-Experience - Elecnovate')
     this.meta.addTags([
