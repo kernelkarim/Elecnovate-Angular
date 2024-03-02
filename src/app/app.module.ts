@@ -7,6 +7,13 @@ import { AppComponent } from './app.component'
 
 const routes = [
   {
+    path: 'user-interface-experience',
+    loadChildren: () =>
+      import(
+        './pages/user-interface-experience/user-interface-experience.module'
+      ).then((m) => m.UserInterfaceExperienceModule),
+  },
+  {
     path: 'development-excellence-hub',
     loadChildren: () =>
       import(
