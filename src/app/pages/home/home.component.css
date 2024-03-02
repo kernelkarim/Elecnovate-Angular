@@ -21,7 +21,7 @@
   flex-direction: column;
   background-size: cover;
   justify-content: center;
-  background-image: linear-gradient(113.8deg, rgba(255, 76, 92, 0.8) 7.5%, rgba(255, 177, 70, 0.8) 94.47%),url("/assets/design%20graphic-1500h.jpg");
+  background-image: linear-gradient(113.8deg, rgba(255, 76, 92, 0.8) 7.5%, rgba(255, 177, 70, 0.8) 94.47%),url("/assets/Home/design%20graphic-1500h.jpg");
   background-position: top left,center;
 }
 .home-text {

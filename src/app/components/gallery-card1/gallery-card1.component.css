@@ -19,16 +19,18 @@
   font-weight: 600;
   margin-bottom: var(--dl-space-space-halfunit);
 }
-.gallery-card1-text1 {
-  color: var(--dl-color-gray-500);
-  align-self: flex-start;
+
+
+
+
+
+
+@media(max-width: 1600px) {
+  .gallery-card1-text {
+    font-size: 2rem;
+    align-self: center;
+  }
 }
-
-
-
-
-
-
 @media(max-width: 767px) {
   .gallery-card1-gallery-card {
     flex-direction: column;
