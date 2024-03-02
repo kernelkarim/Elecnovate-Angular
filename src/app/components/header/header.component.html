@@ -1,8 +1,15 @@
-<header data-role="Header" class="header-header">
+<header data-role="Header" class="header-header" [ngClass]="rootClassName">
   <div class="header-container">
-    <img [attr.alt]="imageAlt" [attr.src]="imageSrc" class="header-image" />
+    <img [attr.alt]="elecnovate" [attr.src]="imageSrc" class="header-image" />
     <div class="header-nav">
-      <navigation-links rootClassName="rootClassName12"></navigation-links>
+      <navigation-links
+        uIUX="Website Design"
+        text4="Blog"
+        graphicDesign="Graphic Design"
+        websiteDesign="Social Media Design"
+        rootClassName="rootClassName12"
+        socialMediaDesign="UI &amp; UX"
+      ></navigation-links>
     </div>
   </div>
   <div class="header-btn-group">

@@ -12,9 +12,11 @@ export class Header {
   imageSrc1: string =
     'https://presentation-website-assets.teleporthq.io/logos/logo.png'
   @Input()
+  rootClassName: string = ''
+  @Input()
   imageSrc: string = '/assets/Home/elecnovate-1500w.png'
   @Input()
-  imageAlt: string = 'image'
+  elecnovate: string = 'elecnovate'
   @Input()
   button: string = 'Buy now'
   constructor() {}

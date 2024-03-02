@@ -32,6 +32,11 @@
 
 
 
+@media(max-width: 1600px) {
+  .feature-card11-text {
+    color: #ffffff;
+  }
+}
 @media(max-width: 576px) {
   .feature-card11-root-class-name3 {
     max-width: 100%;

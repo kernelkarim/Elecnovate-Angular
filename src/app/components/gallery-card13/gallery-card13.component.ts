@@ -7,11 +7,11 @@ import { Component, Input } from '@angular/core'
 })
 export class GalleryCard13 {
   @Input()
-  subtitle: string = 'Lorem ipsum dolor sit amet'
+  imageAlt: string = 'image'
   @Input()
   rootClassName: string = ''
   @Input()
-  imageAlt: string = 'image'
+  subtitle: string = 'Lorem ipsum dolor sit amet'
   @Input()
   title: string = 'Project Title'
   @Input()

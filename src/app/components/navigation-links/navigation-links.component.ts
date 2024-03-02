@@ -9,13 +9,13 @@ export class NavigationLinks {
   @Input()
   text4: string = 'Blog'
   @Input()
-  text: string = 'About'
+  graphicDesign: string = 'Graphic Design'
   @Input()
-  text3: string = 'Team'
+  websiteDesign: string = 'Website Design'
   @Input()
-  text1: string = 'Features'
+  socialMediaDesign: string = 'Social Media Design'
   @Input()
-  text2: string = 'Pricing'
+  userInterfaceUserExperience: string = 'UI & UX'
   @Input()
   rootClassName: string = ''
   constructor() {}

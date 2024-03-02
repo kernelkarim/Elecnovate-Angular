@@ -94,7 +94,25 @@
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }
+.header-root-class-name {
+  max-width: 100%;
+}
+@media(max-width: 1600px) {
+  .header-container {
+    height: 100%;
+  }
+  .header-image {
+    height: 116px;
+  }
+  .header-root-class-name {
+    max-width: 100%;
+  }
+}
 @media(max-width: 991px) {
+  .header-header {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
   .header-icon {
     display: flex;
   }

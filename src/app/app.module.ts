@@ -21,10 +21,10 @@ const routes = [
       ).then((m) => m.DevelopmentExcellenceHubModule),
   },
   {
-    path: 'graphic-desin',
+    path: 'graphic-design',
     loadChildren: () =>
-      import('./pages/graphic-desin/graphic-desin.module').then(
-        (m) => m.GraphicDesinModule
+      import('./pages/graphic-design/graphic-design.module').then(
+        (m) => m.GraphicDesignModule
       ),
   },
   {

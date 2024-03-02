@@ -7,13 +7,13 @@ import { Component, Input } from '@angular/core'
 })
 export class FeatureCard15 {
   @Input()
-  imageSrc: string =
-    'https://images.unsplash.com/photo-1512295767273-ac109ac3acfa?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fHllbGxvdyUyMHRlY2h8ZW58MHx8fHwxNjI2MjU1NDk0&ixlib=rb-1.2.1&h=500'
+  rootClassName: string = ''
   @Input()
   title: string = 'Lorem ipsum'
   @Input()
-  rootClassName: string = ''
-  @Input()
   imageAlt: string = 'image'
+  @Input()
+  imageSrc: string =
+    'https://images.unsplash.com/photo-1512295767273-ac109ac3acfa?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fHllbGxvdyUyMHRlY2h8ZW58MHx8fHwxNjI2MjU1NDk0&ixlib=rb-1.2.1&h=500'
   constructor() {}
 }

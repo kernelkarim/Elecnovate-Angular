@@ -1,7 +1,15 @@
 <nav class="navigation-links-nav" [ngClass]="rootClassName">
-  <span class="navigation-links-text">{{ text }}</span>
-  <span class="navigation-links-text1">{{ text1 }}</span>
-  <span class="navigation-links-text2">{{ text2 }}</span>
-  <span class="navigation-links-text3">{{ text3 }}</span>
-  <span class="navigation-links-text4">{{ text4 }}</span>
+  <a routerLink="/graphic-design" class="navigation-links-navlink">
+    {{ graphicDesign }}
+  </a>
+  <a routerLink="/social-media-design" class="navigation-links-navlink1">
+    {{ socialMediaDesign }}
+  </a>
+  <a routerLink="/user-interface-experience" class="navigation-links-navlink2">
+    {{ userInterfaceUserExperience }}
+  </a>
+  <a routerLink="/website-design" class="navigation-links-navlink3">
+    {{ websiteDesign }}
+  </a>
+  <span class="navigation-links-text">{{ text4 }}</span>
 </nav>
