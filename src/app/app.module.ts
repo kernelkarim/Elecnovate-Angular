@@ -61,6 +61,11 @@ const routes = [
       ),
   },
   {
+    path: 'about-us',
+    loadChildren: () =>
+      import('./pages/about-us/about-us.module').then((m) => m.AboutUsModule),
+  },
+  {
     path: '**',
     loadChildren: () =>
       import('./pages/not-found/not-found.module').then(

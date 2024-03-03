@@ -7,8 +7,8 @@ import { Title, Meta } from '@angular/platform-browser'
   styleUrls: ['design-features.component.css'],
 })
 export class DesignFeatures {
-  rawsc1e: string = ' '
-  rawesux: string = ' '
+  raw389j: string = ' '
+  rawoh0o: string = ' '
   constructor(private title: Title, private meta: Meta) {
     this.title.setTitle('Design-Features - Elecnovate')
     this.meta.addTags([

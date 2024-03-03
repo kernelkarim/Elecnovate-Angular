@@ -14,7 +14,7 @@ export class Header {
   @Input()
   rootClassName: string = ''
   @Input()
-  imageSrc: string = '/assets/Home/elecnovate-1500w.png'
+  imageSrc: string = '/assets/Home/elecnovate-200h.png'
   @Input()
   elecnovate: string = 'elecnovate'
   @Input()
