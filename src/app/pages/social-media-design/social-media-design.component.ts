@@ -7,16 +7,29 @@ import { Title, Meta } from '@angular/platform-browser'
   styleUrls: ['social-media-design.component.css'],
 })
 export class SocialMediaDesign {
-  raw1mph: string = ' '
-  rawnmdb: string = ' '
-  rawqh40: string = ' '
-  rawtq3n: string = ' '
+  raw01on: string = ' '
+  rawmm13: string = ' '
+  rawu9ru: string = ' '
+  rawn2ud: string = ' '
   constructor(private title: Title, private meta: Meta) {
-    this.title.setTitle('Social-Media-Design - Elecnovate')
+    this.title.setTitle(
+      'Social-Media-Design -  Elevate Your Brand with Stunning Graphic Design | Graphic Design'
+    )
     this.meta.addTags([
       {
+        name: 'description',
+        content:
+          'Elevate your brand with our comprehensive solutions. From graphic designs and websites to captivating social media visuals we bring your vision to life.',
+      },
+      {
         property: 'og:title',
-        content: 'Social-Media-Design - Elecnovate',
+        content:
+          'Social-Media-Design -  Elevate Your Brand with Stunning Graphic Design | Graphic Design',
+      },
+      {
+        property: 'og:description',
+        content:
+          "Elevate your brand with captivating designs. 🚀 Offering expert Graphic Design, Social Media Creatives, UI/UX Excellence, and Seamless Website Design. Let's bring your ideas to life! 💡🎨",
       },
     ])
   }

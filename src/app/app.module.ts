@@ -14,6 +14,18 @@ const routes = [
       ).then((m) => m.UserInterfaceExperienceModule),
   },
   {
+    path: 'contact-us',
+    loadChildren: () =>
+      import('./pages/contact-us/contact-us.module').then(
+        (m) => m.ContactUsModule
+      ),
+  },
+  {
+    path: 'about-us',
+    loadChildren: () =>
+      import('./pages/about-us/about-us.module').then((m) => m.AboutUsModule),
+  },
+  {
     path: 'development-excellence-hub',
     loadChildren: () =>
       import(
@@ -59,11 +71,6 @@ const routes = [
       import('./pages/social-media-design/social-media-design.module').then(
         (m) => m.SocialMediaDesignModule
       ),
-  },
-  {
-    path: 'about-us',
-    loadChildren: () =>
-      import('./pages/about-us/about-us.module').then((m) => m.AboutUsModule),
   },
   {
     path: '**',

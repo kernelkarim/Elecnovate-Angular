@@ -2,24 +2,14 @@ import { Component } from '@angular/core'
 import { Title, Meta } from '@angular/platform-browser'
 
 @Component({
-  selector: 'app-home',
-  templateUrl: 'home.component.html',
-  styleUrls: ['home.component.css'],
+  selector: 'contact-us',
+  templateUrl: 'contact-us.component.html',
+  styleUrls: ['contact-us.component.css'],
 })
-export class Home {
-  rawix5j: string = ' '
-  rawera4: string = ' '
-  rawv8xo: string = ' '
-  rawqbcs: string = ' '
-  rawea9n: string = ' '
-  raw150n: string = ' '
-  rawo1as: string = ' '
-  rawfkmd: string = ' '
-  rawi380: string = ' '
-  rawfmbu: string = ' '
+export class ContactUs {
   constructor(private title: Title, private meta: Meta) {
     this.title.setTitle(
-      ' Elevate Your Brand with Stunning Graphic Design | Graphic Design'
+      'Contact-us -  Elevate Your Brand with Stunning Graphic Design | Graphic Design'
     )
     this.meta.addTags([
       {
@@ -30,7 +20,7 @@ export class Home {
       {
         property: 'og:title',
         content:
-          ' Elevate Your Brand with Stunning Graphic Design | Graphic Design',
+          'Contact-us -  Elevate Your Brand with Stunning Graphic Design | Graphic Design',
       },
       {
         property: 'og:description',

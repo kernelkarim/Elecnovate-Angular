@@ -7,28 +7,41 @@ import { Title, Meta } from '@angular/platform-browser'
   styleUrls: ['user-interface-experience.component.css'],
 })
 export class UserInterfaceExperience {
-  raw7vgh: string = ' '
-  rawjcc2: string = ' '
-  rawx09c: string = ' '
-  rawcu4z: string = ' '
-  rawjbd3: string = ' '
-  rawujqr: string = ' '
-  rawhmgc: string = ' '
-  raw1tmv: string = ' '
-  rawvfce: string = ' '
-  raw9yim: string = ' '
-  raw0n7b: string = ' '
-  raw8e94: string = ' '
-  rawr36a: string = ' '
-  rawlgvs: string = ' '
-  raw0nuj: string = ' '
-  raw19rp: string = ' '
+  raws29x: string = ' '
+  rawiqnv: string = ' '
+  raw5mky: string = ' '
+  raw2xmr: string = ' '
+  raw1p1u: string = ' '
+  raw902e: string = ' '
+  rawu5i8: string = ' '
+  rawwyiu: string = ' '
+  raw7ypi: string = ' '
+  rawbgt6: string = ' '
+  rawks2s: string = ' '
+  raw96kz: string = ' '
+  raww9f8: string = ' '
+  raw6oyw: string = ' '
+  rawmtoj: string = ' '
+  rawf7ce: string = ' '
   constructor(private title: Title, private meta: Meta) {
-    this.title.setTitle('User-Interface-Experience - Elecnovate')
+    this.title.setTitle(
+      'User-Interface-Experience -  Elevate Your Brand with Stunning Graphic Design | Graphic Design'
+    )
     this.meta.addTags([
       {
+        name: 'description',
+        content:
+          'Elevate your brand with our comprehensive solutions. From graphic designs and websites to captivating social media visuals we bring your vision to life.',
+      },
+      {
         property: 'og:title',
-        content: 'User-Interface-Experience - Elecnovate',
+        content:
+          'User-Interface-Experience -  Elevate Your Brand with Stunning Graphic Design | Graphic Design',
+      },
+      {
+        property: 'og:description',
+        content:
+          "Elevate your brand with captivating designs. 🚀 Offering expert Graphic Design, Social Media Creatives, UI/UX Excellence, and Seamless Website Design. Let's bring your ideas to life! 💡🎨",
       },
     ])
   }

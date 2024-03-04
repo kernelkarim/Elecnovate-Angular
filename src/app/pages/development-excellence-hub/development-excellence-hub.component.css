@@ -42,7 +42,10 @@
 }
 @media(max-width: 1600px) {
   .development-excellence-hub-text {
-    font-size: 3rem;
+    font-size: 2.25rem;
+  }
+  .development-excellence-hub-text04 {
+    font-size: 22px;
   }
   .development-excellence-hub-text10 {
     font-size: 20px;
@@ -74,6 +77,10 @@
   }
   .development-excellence-hub-button {
     align-self: flex-start;
+  }
+  .development-excellence-hub-image {
+    width: 50%;
+    height: 356px;
   }
 }
 @media(max-width: 991px) {
