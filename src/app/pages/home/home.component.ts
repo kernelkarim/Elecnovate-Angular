@@ -7,16 +7,16 @@ import { Title, Meta } from '@angular/platform-browser'
   styleUrls: ['home.component.css'],
 })
 export class Home {
-  rawix5j: string = ' '
-  rawera4: string = ' '
-  rawv8xo: string = ' '
-  rawqbcs: string = ' '
-  rawea9n: string = ' '
-  raw150n: string = ' '
-  rawo1as: string = ' '
-  rawfkmd: string = ' '
-  rawi380: string = ' '
-  rawfmbu: string = ' '
+  rawztkh: string = ' '
+  rawxulq: string = ' '
+  raw4ufg: string = ' '
+  rawonf6: string = ' '
+  rawb3d5: string = ' '
+  rawrins: string = ' '
+  rawtfob: string = ' '
+  rawe3mi: string = ' '
+  rawob8t: string = ' '
+  rawbgcq: string = ' '
   constructor(private title: Title, private meta: Meta) {
     this.title.setTitle(
       ' Elevate Your Brand with Stunning Graphic Design | Graphic Design'

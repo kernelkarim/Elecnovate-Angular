@@ -23,19 +23,15 @@
 }
 .testimonial-card1-text {
   color: var(--dl-color-gray-500);
+  font-size: 32;
   text-align: center;
+  font-family: "Noto Sans";
   margin-bottom: var(--dl-space-space-threeunits);
 }
 .testimonial-card1-text1 {
-  font-size: 1.5rem;
+  font-size: 32;
   font-weight: 300;
   margin-bottom: var(--dl-space-space-halfunit);
-}
-.testimonial-card1-text2 {
-  color: var(--dl-color-gray-500);
-  font-weight: 600;
-  margin-bottom: var(--dl-space-space-unit);
-  text-transform: uppercase;
 }
 .testimonial-card1-image {
   width: var(--dl-size-size-medium);
@@ -46,15 +42,48 @@
 
 
 
+
+
+
+@media(max-width: 1600px) {
+  .testimonial-card1-text {
+    font-size: 28;
+  }
+  .testimonial-card1-text1 {
+    font-size: 30;
+  }
+}
+@media(max-width: 1200px) {
+  .testimonial-card1-text {
+    font-size: 26;
+  }
+  .testimonial-card1-text1 {
+    font-size: 28;
+  }
+}
 @media(max-width: 991px) {
-  .testimonial-card1-text2 {
-    align-self: center;
+  .testimonial-card1-text {
+    font-size: 24;
+  }
+  .testimonial-card1-text1 {
+    font-size: 26;
   }
 }
 @media(max-width: 767px) {
   .testimonial-card1-testimonial-card {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
+  }
+  .testimonial-card1-text {
+    font-size: 20;
+  }
+  .testimonial-card1-text1 {
+    font-size: 24;
+  }
+}
+@media(max-width: 576px) {
+  .testimonial-card1-text1 {
+    font-size: 22;
   }
 }
 @media(max-width: 479px) {
@@ -72,8 +101,5 @@
   }
   .testimonial-card1-text1 {
     margin-bottom: var(--dl-space-space-halfunit);
-  }
-  .testimonial-card1-text2 {
-    margin-bottom: var(--dl-space-space-unit);
   }
 }

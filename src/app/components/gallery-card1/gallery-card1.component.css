@@ -9,7 +9,7 @@
   justify-content: center;
 }
 .gallery-card1-image {
-  width: 100%;
+  width: 75%;
   height: 100%;
   object-fit: cover;
 }
@@ -25,12 +25,12 @@
 
 
 
-@media(max-width: 1600px) {
-  .gallery-card1-text {
-    font-size: 2rem;
-    align-self: center;
-  }
-}
+
+
+
+
+
+
 @media(max-width: 767px) {
   .gallery-card1-gallery-card {
     flex-direction: column;

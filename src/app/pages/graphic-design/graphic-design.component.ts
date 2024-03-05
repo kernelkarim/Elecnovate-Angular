@@ -7,16 +7,16 @@ import { Title, Meta } from '@angular/platform-browser'
   styleUrls: ['graphic-design.component.css'],
 })
 export class GraphicDesign {
-  raw8jn3: string = ' '
-  rawy2gx: string = ' '
-  rawx8aa: string = ' '
-  raw9ppa: string = ' '
-  rawyifl: string = ' '
-  rawk6ug: string = ' '
-  rawz408: string = ' '
-  rawb5nf: string = ' '
-  raw49n9: string = ' '
-  raw2tn6: string = ' '
+  raw9ti0: string = ' '
+  rawko33: string = ' '
+  raw094f: string = ' '
+  rawk370: string = ' '
+  rawbzwp: string = ' '
+  rawt9bl: string = ' '
+  rawmupm: string = ' '
+  rawqblu: string = ' '
+  rawgq16: string = ' '
+  rawdrfx: string = ' '
   constructor(private title: Title, private meta: Meta) {
     this.title.setTitle(
       'Graphic-Design -  Elevate Your Brand with Stunning Graphic Design | Graphic Design'

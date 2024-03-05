@@ -7,8 +7,8 @@ import { Title, Meta } from '@angular/platform-browser'
   styleUrls: ['design-features.component.css'],
 })
 export class DesignFeatures {
-  rawvjeg: string = ' '
-  rawc0sv: string = ' '
+  rawv3kc: string = ' '
+  rawkn65: string = ' '
   constructor(private title: Title, private meta: Meta) {
     this.title.setTitle(
       'Design-Features -  Elevate Your Brand with Stunning Graphic Design | Graphic Design'

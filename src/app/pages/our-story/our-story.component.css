@@ -29,6 +29,9 @@
   font-size: 3rem;
   max-width: 450px;
 }
+.our-story-text01 {
+  font-size: 36;
+}
 .our-story-btn-group {
   border: 2px dashed rgba(120, 120, 120, 0.4);
   display: flex;
@@ -36,13 +39,15 @@
   flex-direction: row;
 }
 .our-story-image {
-  width: 400px;
+  width: 580px;
+  height: 722px;
   object-fit: cover;
 }
 @media(max-width: 1600px) {
   .our-story-hero {
     width: 100%;
     max-width: 100%;
+    flex-direction: column;
   }
   .our-story-text {
     width: 100%;
@@ -51,6 +56,11 @@
   .our-story-text01 {
     font-size: 30px;
     font-family: Noto Sans;
+  }
+}
+@media(max-width: 1200px) {
+  .our-story-hero {
+    flex-direction: row;
   }
 }
 @media(max-width: 991px) {

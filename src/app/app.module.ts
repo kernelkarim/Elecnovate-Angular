@@ -45,13 +45,6 @@ const routes = [
       import('./pages/home/home.module').then((m) => m.HomeModule),
   },
   {
-    path: 'website-design',
-    loadChildren: () =>
-      import('./pages/website-design/website-design.module').then(
-        (m) => m.WebsiteDesignModule
-      ),
-  },
-  {
     path: 'design-features',
     loadChildren: () =>
       import('./pages/design-features/design-features.module').then(
@@ -59,17 +52,17 @@ const routes = [
       ),
   },
   {
-    path: 'our-story',
-    loadChildren: () =>
-      import('./pages/our-story/our-story.module').then(
-        (m) => m.OurStoryModule
-      ),
-  },
-  {
     path: 'social-media-design',
     loadChildren: () =>
       import('./pages/social-media-design/social-media-design.module').then(
         (m) => m.SocialMediaDesignModule
+      ),
+  },
+  {
+    path: 'our-story',
+    loadChildren: () =>
+      import('./pages/our-story/our-story.module').then(
+        (m) => m.OurStoryModule
       ),
   },
   {

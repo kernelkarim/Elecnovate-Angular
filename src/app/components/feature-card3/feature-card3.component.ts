@@ -7,11 +7,11 @@ import { Component, Input } from '@angular/core'
 })
 export class FeatureCard3 {
   @Input()
+  rootClassName: string = ''
+  @Input()
   title: string = 'Lorem ipsum'
   @Input()
   action: string = 'SEE MORE'
-  @Input()
-  rootClassName: string = ''
   @Input()
   description: string = 'Lorem ipsum dolor sit amet, consectetur adipiscing.'
   constructor() {}

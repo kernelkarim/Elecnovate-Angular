@@ -7,10 +7,6 @@ import { Title, Meta } from '@angular/platform-browser'
   styleUrls: ['social-media-design.component.css'],
 })
 export class SocialMediaDesign {
-  raw01on: string = ' '
-  rawmm13: string = ' '
-  rawu9ru: string = ' '
-  rawn2ud: string = ' '
   constructor(private title: Title, private meta: Meta) {
     this.title.setTitle(
       'Social-Media-Design -  Elevate Your Brand with Stunning Graphic Design | Graphic Design'

@@ -9,6 +9,9 @@
   background: #fff;
   box-shadow: 5px 5px 10px 0px rgba(18, 18, 18, 0.1);
   align-items: center;
+  border-color: var(--dl-color-gray-black);
+  border-width: 10px;
+  border-radius: 32px;
   justify-content: space-between;
 }
 .testimonial-card23-testimonial {
@@ -39,13 +42,26 @@
   align-self: flex-start;
 }
 @media(max-width: 1600px) {
+  .testimonial-card23-testimonial-card {
+    border-color: var(--dl-color-gray-black);
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 32px;
+  }
   .testimonial-card23-text {
     font-size: 24;
   }
 }
 @media(max-width: 1200px) {
   .testimonial-card23-text {
-    font-size: 18;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+  }
+}
+@media(max-width: 991px) {
+  .testimonial-card23-text {
+    font-size: 20px;
   }
 }
 @media(max-width: 767px) {

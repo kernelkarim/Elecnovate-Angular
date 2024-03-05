@@ -34,6 +34,33 @@
 
 @media(max-width: 1600px) {
   .feature-card12-image {
-    height: 100%;
+    width: var(--dl-size-size-xxlarge);
+    height: var(--dl-size-size-xxlarge);
+  }
+}
+@media(max-width: 576px) {
+  .feature-card12-root-class-name {
+    max-width: auto;
+  }
+  .feature-card12-root-class-name1 {
+    max-width: auto;
+  }
+  .feature-card12-root-class-name2 {
+    max-width: auto;
+  }
+  .feature-card12-root-class-name3 {
+    max-width: auto;
+  }
+  .feature-card12-root-class-name4 {
+    max-width: auto;
+  }
+  .feature-card12-root-class-name5 {
+    max-width: auto;
+  }
+  .feature-card12-root-class-name6 {
+    max-width: auto;
+  }
+  .feature-card12-root-class-name7 {
+    max-width: auto;
   }
 }
